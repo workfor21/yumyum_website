@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  .img-fluid {
+    max-width: 700px;
+  }
+  
+  .footer {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  .responsive-paragraph {
+    width: 50%;
+    padding: 1rem; /* Adjust padding as needed */
+    margin: 0 auto; /* Center the paragraph horizontally */
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  @media (max-width: 768px) {
+    .responsive-paragraph {
+      width: 75%; /* Adjust width for smaller screens */
+    }
+  }
+
+  .responsive-image {
+    width: 100%; /* Makes the image scale to fit its container */
+    max-width: 300px; /* Sets a maximum width to prevent excessive scaling */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Ensures the image behaves like a block-level element */
+    margin: 0 auto; /* Centers the image horizontally (optional) */
+  }
+
+  .btn-download {
+    background-image: linear-gradient(to right, #f7931a 0%, #d62728 100%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
